@@ -1,6 +1,6 @@
-\# DrawClassifier
+# DrawClassifier
 
-\## Real-time Doodle Recognition
+## Real-time Doodle Recognition
 
 
 
@@ -10,45 +10,44 @@ Draw on a canvas and get real-time predictions of what you're doing
 
 
 
-\---
+---
 
 
 
-\## Features
+## Features
 
 
 
-\- Interactive drawing canvas (Streamlit)
+- Interactive drawing canvas (Streamlit)
 
-\- Real-time predictions
+- Real-time predictions
 
-\- CNN model trained on doodle dataset
-
-
-
-\---
+- CNN model trained on doodle dataset
 
 
 
-\## How it works
+---
 
 
 
-1\. User draws on canvas
-
-2\. Drawing is preprocessed into 28x28 grayscale image
-
-3\. Image is passed through a Convolutional Neural Network
-
-4\. Model outputs class probabilities using Softmax
+## How it works
 
 
 
-\---
+1. User draws on canvas
+
+2. Drawing is preprocessed into 28x28 grayscale image
+
+3. Image is passed through a Convolutional Neural Network
+
+4. Model outputs class probabilities using Softmax
 
 
 
-\## Project structure
+---
+
+
+## Project structure
 
 
 
@@ -76,11 +75,11 @@ DrawClassifier/
 
 
 
-\---
+---
 
 
 
-\## Installation
+## Installation
 
 
 
@@ -96,11 +95,11 @@ pip install -r requirements.txt
 
 
 
-\---
+---
 
 
 
-\## Dataset
+## Dataset
 
 
 
@@ -118,11 +117,11 @@ data/raw/fully\_simplified\_bird.ndjson
 
 
 
-\---
+---
 
 
 
-\## Run the app
+## Run the app
 
 
 
@@ -134,31 +133,31 @@ streamlit run app/app.py
 
 
 
-\---
+---
 
 
 
-\## Model
+## Model
 
 
 
-\- Architecture: Convolutional Neural Network
+- Architecture: Convolutional Neural Network
 
-\- Input: 28x28 grayscale images
+- Input: 28x28 grayscale images
 
-\- Output: N classes (softmax probabilities)
+- Output: N classes (softmax probabilities)
 
-\- Loss: CrossEntropyLoss
+- Loss: CrossEntropyLoss
 
-\- Optimizer: Adam
-
-
-
-\---
+- Optimizer: Adam
 
 
 
-\## Author
+---
+
+
+
+## Author
 
 Guillermo Orellana Escobar
 
